@@ -18,14 +18,14 @@ function App() {
     <div className="App">
       <nav id="nav-container">
         <ul class="nav-links">
-          <li><Link to="/" className="item">Projects</Link></li>
+          <li><Link to="/components/projects" className="item">Projects</Link></li>
           <li><Link to="/components/articles" className="item">Articles</Link></li>
-          <li><Link to="/components/about" className="item">About</Link></li>
+          <li><a href="#testing">Tsest</a></li>
         </ul>
       </nav>
 
     <div>
-      <Projects />
+    <Projects />
       <Articles />
     <About />
     </div>
