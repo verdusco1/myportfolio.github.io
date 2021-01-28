@@ -2,36 +2,29 @@ import logo from './logo.svg';
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Projects from './components/Projects.js';
-import Articles from './components/Articles.js';
+import Contact from './components/Contact.js';
 import About from './components/About.js';
+import Navbar from './components/Navbar.js'
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
 
-    // Router set up
-    <Route exact path="/" component={Projects} />
-    <Route path="/components/articles" component={Articles} />
-    <Route path="/components/about" component={About} />
 
     <div className="App">
-      <nav id="nav-container">
-        <ul class="nav-links">
-          <li><Link to="/components/projects" className="item">Projects</Link></li>
-          <li><Link to="/components/articles" className="item">Articles</Link></li>
-          <li><a href="#testing">Tsest</a></li>
-        </ul>
-      </nav>
 
-    <div>
-    <Projects />
-      <Articles />
-    <About />
-    </div>
+
+<Navbar />
+<About />
+<Projects />
+<Contact />
+
 
     </div>
-    </BrowserRouter>
+
+
   );
 }
 
