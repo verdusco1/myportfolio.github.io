@@ -23,6 +23,11 @@ function App() {
           <li><Link to="/about" className="item">About</Link></li>
         </ul>
       </nav>
+
+    <div>
+    <About />
+    </div>
+
     </div>
     </BrowserRouter>
   );
