@@ -54,9 +54,12 @@ body {
   background-color: #cecece;
 }
 /* nav */
+.social-link-container {
+ margin-left: ;
+ background: red;
 
+}
 /* nav */
-
 .container-fluid {
   display:flex;
   flex-direction: column;
