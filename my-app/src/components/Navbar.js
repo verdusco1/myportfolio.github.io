@@ -11,22 +11,21 @@ import avatar from "../images/avataaars.png";
 function Navbar(props) {
     return (
 <div class="navbar-container">
-<nav class="navbar navbar-default">
-        <ul class="nav navbar-nav">
-          <li ><a href=".home-text">About</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
 
-
-    <div class="social-links" >
-<img class="" src={github} alt="Eddie's avatar"/>
-<img class="" src={linkedin} alt="Eddie's avatar"/>
-</div>
-      </nav>
-
-
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+</nav>
 
 </div>
 

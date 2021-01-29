@@ -55,61 +55,6 @@ body {
 }
 /* nav */
 
-.navbar-container{
-  position:fixed;
-  top:0;
-  height: 100%;
-  width: 100%;
-  z-index: 200;
-
-
-}
-
-.navbar-container nav{
-  background-color: transparent;
-  border: none;
-
-
-}
-.navbar-container li{
-  padding-left: 5rem;
-
-
-}
-
-
-.social-links {
-  color:red;
-  display:;
-  height: 50px;
-  float: right;
-  margin-right:5rem;
-
-}
-
-.social-links img {
-  width: 40px;
-  margin: 0px 5px;
-
-}
-
-
-ul.nav li a:hover, ul.nav li a:active {
-  color:  rgb(223, 223, 223) !important;
-  background-color: rgba(0, 0, 0, 0.822)  !important;
-  transition: .10s;
-}
-
-ul.nav li a {
-  color: rgba(0, 0, 0, 0.822) !important;
-  letter-spacing: 2px;
-
-}
-
-.navbar-brand {
-  background:red;
-}
-
 /* nav */
 
 .container-fluid {
