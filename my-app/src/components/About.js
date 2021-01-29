@@ -12,7 +12,6 @@ function About(props) {
         <div class="about-background">
         <h1 class="hello-text">Hello, I'm Eddie</h1>
         <h2  class="hello-text">An aspiring fron-end developer that loves to create.</h2>
-        <img class="hello-image" src={background} width='50' ></img>
         </div>
 
         <div class="row p-0">

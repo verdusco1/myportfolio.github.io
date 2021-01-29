@@ -115,31 +115,33 @@ body {
   font-size: 10rem;
 }
 
-img{
-  display: ;
-}
-
-.about-background:hover img {
-  display: block;
-}
 
 
-.outer {
-  height: 300px;
-  width: 300px;
-  border: 1px solid #000;
+
+
+
+
+
+
+/*Projects*/
+
+.projects-container {
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
 }
-.inner {
-  height: 100px;
-  width: 100px;
-  margin: 100px;
-  background: red;
+.project-tile {
+  display:flex;
 }
-img {
-  height: auto;
-  width: 100px;
-  display: none
+
+.project-tile div {
+  margin: 0 3rem;
 }
-.inner:hover img {
-  display: inline;
+
+.project-tile img {
+  height: 350px;
 }
+
+/*Projects*/
