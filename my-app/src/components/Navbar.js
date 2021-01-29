@@ -13,7 +13,7 @@ function Navbar(props) {
 <div class="navbar-container">
 <nav class="navbar navbar-default">
         <ul class="nav navbar-nav">
-          <li ><a href="">About</a></li>
+          <li ><a href=".home-text">About</a></li>
           <li><a href="">Projects</a></li>
           <li><a href="">Contact</a></li>
         </ul>

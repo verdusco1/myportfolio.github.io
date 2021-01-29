@@ -60,6 +60,7 @@ body {
   top:0;
   height: 100%;
   width: 100%;
+  z-index: 200;
 
 
 }
@@ -94,11 +95,13 @@ body {
 
 
 ul.nav li a:hover, ul.nav li a:active {
-  color:  !important;
+  color:  rgb(223, 223, 223) !important;
+  background-color: rgba(0, 0, 0, 0.822)  !important;
+  transition: .10s;
 }
 
 ul.nav li a {
-  color: black !important;
+  color: rgba(0, 0, 0, 0.822) !important;
   letter-spacing: 2px;
 
 }
@@ -218,7 +221,18 @@ justify-content: center;
 }
 
 .banner-background {
-  background:black;
+  background:rgba(0, 0, 0, 0.822);
   height: 40vh;
   margin-top:-75px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  color:rgb(233, 232, 232);
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 18px;
+
 }

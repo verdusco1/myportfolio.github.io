@@ -1,7 +1,6 @@
 import React from "react";
 import background from "../images/background.jpg";
 import avatar from "../images/avataaars.png";
-import github from '../images/Github_5.png';
 import '../App.css';
 
 
@@ -23,7 +22,11 @@ function About(props) {
 
             <img class="avatar" src={avatar} alt="Eddie's avatar"/>
 
-            <div class="col-lg-12 banner-background">When I look back to the first application that I created, I remember being so excited when everything finally rendered. A spark was ignited that day and the path to self-taught programming was revealed. As time has gone my passion for development has only grown and is fueled by my excitement of always being able to learn something new.</div>
+            <div class="col-lg-12 banner-background">
+                <p class="col-sm-5 banner-text">
+                When I look back to the first application that I created, I remember being so excited when everything finally rendered. A spark was ignited that day and the path to self-taught programming was revealed. As time has gone my passion for development has only grown and is fueled by my excitement of always being able to learn something new.
+                </p>
+            </div>
 
        </div>
 
