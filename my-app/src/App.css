@@ -145,3 +145,14 @@ justify-content: center;
 }
 
 /*Projects*/
+
+
+.img-title {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 40%;
+  letter-spacing: 3px;
+}

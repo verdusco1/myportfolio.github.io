@@ -7,18 +7,27 @@ import '../App.css';
 function About(props) {
     return (
 
-        <div class="">
-
-        <div class="about-background">
-        <h1 class="hello-text">Hello, I'm Eddie</h1>
-        <h2  class="hello-text">An aspiring fron-end developer that loves to create.</h2>
-        </div>
-
-        <div class="row p-0">
-            <h2 class="about-text p-0">I am an aspiring fron-end developer that loves to create.</h2>
-           </div>
-
-
+        <div class="container-fluid" >
+            <div class="wrapper">
+                <img src={background} class="img-responsive" alt="Responsive image" />
+            </div>
+            <div class="img-title">
+                <h1>Hi, I'm Eddie</h1>
+                <h3>An aspiring front-end developer that loves to create things.</h3>
+                <Avatar
+  avatarStyle='Circle'
+  topType='ShortHairTheCaesar'
+  accessoriesType='Prescription02'
+  hairColor='Black'
+  facialHairType='BeardLight'
+  facialHairColor='Black'
+  clotheType='BlazerShirt'
+  eyeType='Default'
+  eyebrowType='DefaultNatural'
+  mouthType='Smile'
+  skinColor='Light'
+/>
+            </div>
        </div>
 
     )
