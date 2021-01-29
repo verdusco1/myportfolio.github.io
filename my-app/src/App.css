@@ -70,6 +70,42 @@ body {
 
 
 }
+.navbar-container li{
+  padding-left: 5rem;
+
+
+}
+
+
+.social-links {
+  color:red;
+  display:;
+  height: 50px;
+  float: right;
+  margin-right:5rem;
+
+}
+
+.social-links img {
+  width: 40px;
+  margin: 0px 5px;
+
+}
+
+
+ul.nav li a:hover, ul.nav li a:active {
+  color:  !important;
+}
+
+ul.nav li a {
+  color: black !important;
+  letter-spacing: 2px;
+
+}
+
+.navbar-brand {
+  background:red;
+}
 
 /* nav */
 
@@ -146,13 +182,43 @@ justify-content: center;
 
 /*Projects*/
 
+.about-background {
+  background-color: rgb(233, 232, 232);
+  height: 85vh;
+  position: ;
+}
+.about {
+  background-color: rgb(233, 232, 232);
+  height: 20vh;
+  position: ;
+}
 
-.img-title {
+.about-me-text {
+  background-color: black;
+  height: 40vh;
+  margin-top: 25rem;
+}
+
+.home-text {
   position: absolute;
-  color: #fff;
+  color: ;
   text-align: center;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 30%;
   letter-spacing: 3px;
+}
+
+
+.avatar {
+  position: absolute;
+  height: 175px;
+  top:65%;
+  z-index: 100;
+}
+
+.banner-background {
+  background:black;
+  height: 40vh;
+  margin-top:-75px;
 }
