@@ -53,13 +53,7 @@ body {
   padding: 0px;
   background-color: #cecece;
 }
-/* nav */
-.social-link-container {
- margin-left: ;
- background: red;
 
-}
-/* nav */
 .container-fluid {
   display:flex;
   flex-direction: column;
@@ -184,3 +178,78 @@ justify-content: center;
   font-size: 18px;
 
 }
+
+.navbar {
+  background-color: gray;
+
+
+}
+
+.burger {
+  margin-left: auto;
+  margin-right:10px;
+  background: ;
+  border:none;
+}
+
+.burger div {
+  display:flex;
+  flex-direction: column;
+
+}
+.burger span {
+  background-color: rgba(58, 58, 58, 0.822);
+  height: 3px;
+  width: 35px;
+  margin:3px;
+}
+
+
+/* nav */
+.social-link-container a {
+  margin-left: 10px;
+  margin-top:-1px;
+  padding:0px;
+  position: ;
+  background: ;
+
+ }
+
+ .nav-container {
+   background:;
+ }
+
+ .navbarback {
+  background:  ;
+  padding:0px;
+  margin:0px;
+}
+
+ .nav-links a {
+   color: rgb(233, 232, 232);
+   letter-spacing: 1px;
+   font-size: 24px;
+   text-decoration: none !important;
+
+ }
+
+ .nav-links a:hover {
+color:rgba(112, 112, 112, 0.534);
+
+ }
+ .nav-links a:active {
+  text-decoration: none !important;
+
+ }
+
+ .collapse-background {
+   color:red;
+   height: 50vh;
+   border:none;
+ }
+
+ .collapse-background a{
+   margin: 3rem 0rem;
+   border:none;
+ }
+ /* nav */

@@ -10,18 +10,28 @@ import avatar from "../images/avataaars.png";
 
 function Navbar(props) {
     return (
-<div class="">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<div class="nav-container">
+<nav class="navbar navbar-expand-lg n navbarback">
+  <div class="social-link-container">
+  <a class="navbar-brand" href="#">
+  <img class="" src={github} alt="Eddie's avatar" height="35" />
+  </a>
+  <a class="navbar-brand" href="#">
+  <img class="" src={linkedin} alt="Eddie's avatar" height="35" />
+  </a>
+  </div>
+  <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <div>
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    <div class="navbar-nav nav-links collapse-background">
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Projects</a>
+      <a class="nav-item nav-link" href="#">Contact</a>
     </div>
   </div>
 </nav>
