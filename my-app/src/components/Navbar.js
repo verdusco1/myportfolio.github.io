@@ -11,13 +11,13 @@ import avatar from "../images/avataaars.png";
 function Navbar(props) {
     return (
 <div class="nav-container">
-<nav class="navbar navbar-expand-lg n navbarback">
+<nav class="navbar navbar-expand-lg navbarback">
   <div class="social-link-container">
   <a class="navbar-brand" href="#">
-  <img class="" src={github} alt="Eddie's avatar" height="35" />
+  <img class="" src={github} alt="github logo" height="45" />
   </a>
   <a class="navbar-brand" href="#">
-  <img class="" src={linkedin} alt="Eddie's avatar" height="35" />
+  <img class="" src={linkedin} alt="linkedin logo" height="45" />
   </a>
   </div>
   <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

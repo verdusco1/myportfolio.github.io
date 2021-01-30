@@ -180,7 +180,8 @@ justify-content: center;
 }
 
 .navbar {
-  background-color: gray;
+  background-color:white ;
+  z-index: 100;
 
 
 }
