@@ -128,21 +128,13 @@ justify-content: center;
 /*Projects*/
 
 .about-background {
-  background-color: rgb(233, 232, 232);
+  background-color: ;
   height: 85vh;
   position: ;
 }
-.about {
-  background-color: rgb(233, 232, 232);
-  height: 20vh;
-  position: ;
-}
 
-.about-me-text {
-  background-color: black;
-  height: 40vh;
-  margin-top: 25rem;
-}
+
+
 
 .home-text {
   position: absolute;
@@ -156,7 +148,7 @@ justify-content: center;
 
 
 .avatar {
-  position: absolute;
+  position: ;
   height: 175px;
   top:65%;
   z-index: 100;
@@ -179,15 +171,21 @@ justify-content: center;
 
 }
 
+
+
+
+/* nav */
 .navbar {
-  background-color:white ;
+  background-color:white;
   z-index: 100;
+
 
 
 }
 
 .burger {
   margin-left: auto;
+  margin-top: 10px;
   margin-right:10px;
   background: ;
   border:none;
@@ -205,8 +203,6 @@ justify-content: center;
   margin:3px;
 }
 
-
-/* nav */
 .social-link-container a {
   margin-left: 10px;
   margin-top:-1px;
@@ -227,7 +223,7 @@ justify-content: center;
 }
 
  .nav-links a {
-   color: rgb(233, 232, 232);
+   color: rgba(58, 58, 58, 0.822);
    letter-spacing: 1px;
    font-size: 24px;
    text-decoration: none !important;
