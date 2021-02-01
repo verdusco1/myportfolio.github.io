@@ -11,15 +11,7 @@ import avatar from "../images/avataaars.png";
 function Navbar(props) {
     return (
 <div class="nav-container">
-<nav class="navbar navbar-expand-lg navbarback">
-  <div class="social-link-container">
-  <a class="navbar-brand" href="#">
-  <img class="" src={github} alt="github logo" height="45" />
-  </a>
-  <a class="navbar-brand" href="#">
-  <img class="" src={linkedin} alt="linkedin logo" height="45" />
-  </a>
-  </div>
+<nav class="navbar navbar-expand-lg navbar-inner">
   <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <div>
     <span></span>
@@ -27,12 +19,20 @@ function Navbar(props) {
     <span></span>
     </div>
     </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav nav-links collapse-background">
+  <div class="collapse navbar-collapse collapse-container" id="navbarNavAltMarkup">
+    <div class="navbar-nav nav-links ">
       <a class="nav-item nav-link" href="#">About</a>
       <a class="nav-item nav-link" href="#">Projects</a>
       <a class="nav-item nav-link" href="#">Contact</a>
     </div>
+    <div class="social-link-container">
+  <a class="" href="#">
+  <img class="" src={github} alt="github logo" height="40" />
+  </a>
+  <a class="" href="#">
+  <img class="" src={linkedin} alt="linkedin logo" height="40" />
+  </a>
+  </div>
   </div>
 </nav>
 
