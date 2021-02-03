@@ -56,32 +56,41 @@ body {
 
 /* nav */
 .navbar {
-  background-color:;
+  background-color:#007cc7;
+  height: ;
   z-index: 100;
 
 }
 
 .navbar-inner {
   background:  ;
-  padding:0px;
+  display:flex;
+  align-items: ;
+  justify-content: ;
+  padding:10px;
   margin:0px;
 }
 
 .burger {
+  background:;
   margin-left: auto;
-  margin-top: 10px;
-  margin-right:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-right:0px;
   background: ;
   border:none;
+
 }
 
 .burger div {
   display:flex;
   flex-direction: column;
+  border:none;
 
 }
 .burger span {
-  background: #007cc7;
+  position: relative;
+  background: #f3f3f3;
   height: 5px;
   width: 35px;
   margin:3px;
@@ -99,21 +108,28 @@ position: fixed;
 }
 
 .social-link-container a {
-background:;
-
 margin: 5px 0px;
 
-left:;
-position: ;
+ }
 
+ .social-link-container img {
+   opacity: .9;
+ }
+
+ .nav-links {
+   display:flex;
+   flex-direction: ;
+   justify-content: center;
+   align-items: center;
  }
 
 
 
  .nav-links a {
-   color: #007cc7;
+   color: #f3f3f3;
    letter-spacing: 1px;
-   font-size: 24px;
+   font-size: 15px;
+   font-weight: 600;
    margin: 1rem;
    text-decoration: none !important;
 
@@ -123,6 +139,7 @@ position: ;
  .nav-links a:hover {
   background:rgba(153, 153, 153, 0.308);
   border-radius: 5px;
+  width: 150px;
  }
  .nav-links a:active {
   text-decoration: none !important;
@@ -130,11 +147,12 @@ position: ;
  }
 
 .collapse-container {
-  transition: 10s;
+
   margin:3rem 0rem;
   height: ;
-  border-bottom: solid 1px  #007cc7 ;
-  background-color: white;
+width: 100%;
+  background-color: ;
+  border:none;
   height: ;
 }
 
@@ -145,6 +163,45 @@ position: ;
  .navbar-collapse {
   margin: 1rem 0rem;
  }
+
+ .link-wrap {
+position: ;
+ }
+
+ .link-wrap
+  {
+   margin: 0rem 1rem;
+ }
+ .img__img {
+  height: 50px;
+  position: absolute;
+  display: none;
+ }
+
+ .img__description {
+  visibility: ;
+  position: ;
+  opacity: 1;
+
+ }
+
+ .link-wrap:hover .img__description {
+   visibility: visible;
+   opacity: 1;
+ }
+ .link-wrap:hover .img__img {
+  display: none;
+}
+
+.so {
+position: fixed;
+top:0
+}
+
+
+.so  img {
+  opacity: .9;
+}
  /* nav */
 
 /*About */

@@ -21,11 +21,19 @@ function Navbar(props) {
     </button>
   <div class="collapse navbar-collapse collapse-container" id="navbarNavAltMarkup">
     <div class="navbar-nav nav-links ">
-      <a class="nav-item nav-link" href="#">About</a>
-      <a class="nav-item nav-link" href="#">Projects</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
-    </div>
-    <div class="social-link-container">
+      <div class="link-wrap">
+        <img class="img__img" src={github} />
+        <a class="nav-item nav-link img__description" href="#">ABOUT</a>
+      </div>
+      <div class="link-wrap">
+        <img class="img__img" src={github} />
+        <a class="nav-item nav-link img__description" href="#">PROJECTS</a>
+      </div>
+      <div class="link-wrap">
+        <img class="img__img" src={github} />
+        <a class="nav-item nav-link img__description" href="#">CONTACT</a>
+      </div>
+      <div class=" so">
   <a class="" href="#">
   <img class="" src={github} alt="github logo" height="40" />
   </a>
@@ -33,6 +41,7 @@ function Navbar(props) {
   <img class="" src={linkedin} alt="linkedin logo" height="40" />
   </a>
   </div>
+    </div>
   </div>
 </nav>
 
