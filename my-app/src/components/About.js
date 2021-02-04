@@ -8,11 +8,13 @@ import '../App.css';
 function About(props) {
     return (
 
-    <div class="container-fluid" >
-        <div class="home-text">
+    <div class="container-fluid about-container" >
+        <div class="row home-text">
             <h1>Hi, I'm Eddie</h1>
-            <h3>An aspiring front-end developer that loves to create things.</h3>
+            <h3>An aspiring <br/>front-end developer <br/>that loves to create things.</h3>
         </div>
+        <button type="buton" class="btn btn-primary btn-lg">Message Me!</button>
+
         <div class="row bio-container">
             <img class="avatar" src={avatar} alt="Eddie's avatar"/>
             <p class="col-sm-6">

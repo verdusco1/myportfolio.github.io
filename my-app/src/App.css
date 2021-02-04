@@ -56,7 +56,7 @@ body {
 
 /* nav */
 .navbar {
-  background-color:#007cc7;
+  background-color:#06BC9B;
   height: ;
   z-index: 100;
 
@@ -202,35 +202,65 @@ top:0
 .so  img {
   opacity: .9;
 }
+
+.navbar-brand-logo img {
+  width: 35px;
+}
  /* nav */
 
 /*About */
-
+.about-container {
+  /* for row padding from bootstrap */
+  margin-top:-20px;
+  background-color: ;
+}
 
 .home-text h1 {
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4rem;
 }
+.home-text h3 {
+  line-height: 35px;
+}
+
 .home-text {
-  padding: 5rem 0rem;
+  background-image: url('./images/cubes.png');
+  text-align: left;
+  height: 80vh;
+  display:;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+
+}
+
+.about-container button {
+  align-self: center;
+  background-color: #06BC9B;
+  border: none;
+  width: 200px;
+  margin-top: -200px;
+}
+
+.bio-container img {
+  height: 150px;
+  width: auto;
+
+}
+
+.bio-container p {
+  margin-top: 3rem;
+  color: #f3f3f3;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .bio-container {
   display: flex;
   justify-content: center;
-  text-align: left;
-  margin-top: 100px;
-  color:#e6e6e6;
-  height: 50vh;
-  background: linear-gradient(to bottom, hsl(201, 93%, 70%) 30%, #203647 100%);
-  font-size: 18px;
-}
+  background: linear-gradient(to bottom, #ffffff 0%, #06BC9B 100%);
+  margin-top:-20px;
 
-.bio-container img {
-  margin:-100px 0px 0px 0px;
-  width: auto;
-  height: 200px;
-  object-fit: cover;
 }
 
 /* About */
