@@ -11,7 +11,7 @@ function About(props) {
     <div class="container-fluid about-container" >
         <div class="row home-text">
             <h1>Hi, I'm Eddie</h1>
-            <h3>An aspiring <br/>front-end developer <br/>that loves to create things.</h3>
+            <h3>An aspiring  front-end developer that loves <br/>to create things.</h3>
         </div>
         <button type="buton" class="btn btn-primary btn-lg">Message Me!</button>
 

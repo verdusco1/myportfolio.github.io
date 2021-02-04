@@ -24,7 +24,7 @@ function Navbar(props) {
     </button>
   <div class="collapse navbar-collapse collapse-container" id="navbarNavAltMarkup">
     <div class="navbar-nav nav-links ">
-      <div class="link-wrap">
+      <div class="link-wrap first-link">
         <img class="img__img" src={github} />
         <a class="nav-item nav-link img__description" href="#">ABOUT</a>
       </div>
@@ -32,7 +32,7 @@ function Navbar(props) {
         <img class="img__img" src={github} />
         <a class="nav-item nav-link img__description" href="#">PROJECTS</a>
       </div>
-      <div class="link-wrap">
+      <div class="link-wrap last-link">
         <img class="img__img" src={github} />
         <a class="nav-item nav-link img__description" href="#">CONTACT</a>
       </div>

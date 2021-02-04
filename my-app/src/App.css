@@ -69,6 +69,7 @@ body {
   justify-content: ;
   padding:10px;
   margin:0px;
+
 }
 
 .burger {
@@ -138,6 +139,7 @@ margin: 5px 0px;
 
  .nav-links a:hover {
   background:rgba(153, 153, 153, 0.308);
+  color:#f3f3f3;
   border-radius: 5px;
   width: 150px;
  }
@@ -162,10 +164,17 @@ width: 100%;
 
  .navbar-collapse {
   margin: 1rem 0rem;
+  border-top: 0px transparent solid !important;
+  box-shadow: none !important;
  }
 
- .link-wrap {
-position: ;
+ .first-link {
+  border-bottom:solid 1px rgba(255, 255, 255, 0.212);
+  width: 100%;
+ }
+ .last-link {
+  border-top:solid 1px rgba(255, 255, 255, 0.212);
+  width: 100%;
  }
 
  .link-wrap
@@ -225,12 +234,13 @@ top:0
 
 .home-text {
   background-image: url('./images/cubes.png');
-  text-align: left;
+  text-align: ;
   height: 80vh;
   display:;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15px;
+  align-self: center;
+
 
 }
 
@@ -250,9 +260,10 @@ top:0
 
 .bio-container p {
   margin-top: 3rem;
-  color: #f3f3f3;
   font-size: 18px;
   letter-spacing: 1px;
+  line-height: 26px;
+
 }
 
 .bio-container {
@@ -260,6 +271,7 @@ top:0
   justify-content: center;
   background: linear-gradient(to bottom, #ffffff 0%, #06BC9B 100%);
   margin-top:-20px;
+
 
 }
 
