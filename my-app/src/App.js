@@ -5,6 +5,7 @@ import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 import About from './components/About.js';
 import Navbar from './components/Navbar.js'
+import Footer from './components/footer.js'
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,6 +19,8 @@ function App() {
 
 <Navbar />
 <About />
+<Projects />
+<Footer />
 
 
 

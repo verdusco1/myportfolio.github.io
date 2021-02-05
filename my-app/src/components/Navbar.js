@@ -30,7 +30,7 @@ function Navbar(props) {
       </div>
       <div class="link-wrap">
         <img class="img__img" src={github} />
-        <a class="nav-item nav-link img__description" href="#">PROJECTS</a>
+        <a class="nav-item nav-link img__description" href="#">PORTFOLIO</a>
       </div>
       <div class="link-wrap last-link">
         <img class="img__img" src={github} />
