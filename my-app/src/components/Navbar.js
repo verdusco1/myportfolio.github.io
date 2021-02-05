@@ -13,7 +13,9 @@ function Navbar(props) {
 <div class="nav-container">
 <nav class="navbar navbar-expand-lg navbar-inner">
 <div class="navbar-brand-logo">
-      <img src={avatar} />
+      <a href="#about">
+      <p class="initials">E | V</p>
+      </a>
     </div>
   <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
   <div>
@@ -26,21 +28,21 @@ function Navbar(props) {
     <div class="navbar-nav nav-links ">
       <div class="link-wrap first-link">
         <img class="img__img" src={github} />
-        <a class="nav-item nav-link img__description" href="#">ABOUT</a>
+        <a class="nav-item nav-link img__description" href="#about">ABOUT</a>
       </div>
       <div class="link-wrap">
         <img class="img__img" src={github} />
-        <a class="nav-item nav-link img__description" href="#">PORTFOLIO</a>
+        <a class="nav-item nav-link img__description" href="#portfolio">PORTFOLIO</a>
       </div>
       <div class="link-wrap last-link">
         <img class="img__img" src={github} />
-        <a class="nav-item nav-link img__description" href="#">CONTACT</a>
+        <a class="nav-item nav-link img__description" href="#contact">CONTACT</a>
       </div>
       <div class=" so">
-  <a class="" href="#">
+  <a class="" href="https://github.com/verdusco1" target="_blank">
   <img class="" src={github} alt="github logo" height="40" />
   </a>
-  <a class="" href="#">
+  <a class="" href="https://www.linkedin.com/in/eddie-verdusco" target="_blank">
   <img class="" src={linkedin} alt="linkedin logo" height="40" />
   </a>
   </div>

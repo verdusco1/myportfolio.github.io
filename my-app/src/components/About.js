@@ -13,9 +13,9 @@ function About(props) {
             <h1>Hi, I'm Eddie</h1>
             <h3>An aspiring  front-end developer that loves <br/>to create things.</h3>
         </div>
-        <button type="buton" class="btn btn-primary btn-lg">Message Me!</button>
+        <a href="#contact"><button type="buton" class="btn btn-primary btn-lg">Message Me!</button></a>
 
-        <div class="row bio-container">
+        <div id="about" class="row bio-container">
             <img class="avatar" src={avatar} alt="Eddie's avatar"/>
             <p class="col-sm-6">
     When I look back to the first application that I created, I remember being so excited when everything finally rendered. A spark was ignited that day and the path to self-taught programming was revealed. As time has gone my passion for development has only grown and is fueled by my excitement of always being able to learn something new.

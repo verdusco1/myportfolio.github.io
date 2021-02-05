@@ -11,13 +11,13 @@ function Footer(props) {
             <div class="row">
                 <p class="footer-text">Get In Touch...</p>
             </div>
-            <div class="row link-container">
-                <img src={github} />
-                <img src={linkedin} />
-                <img src={mail} />
+            <div class=" link-container">
+                <a href="https://github.com/verdusco1" target="_blank"><img src={github} /></a>
+                <a  href="https://www.linkedin.com/in/eddie-verdusco" target="_blank"><img src={linkedin} /></a>
             </div>
             <a class="arrow-container">
             <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+            <p>Take me back up!</p>
             </a>
             <div class="row copyright-container">
                 <p>Copyright {'\u00a9'} 2021 Eddie Verdusco</p>

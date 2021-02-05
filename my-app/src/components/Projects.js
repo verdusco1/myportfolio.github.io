@@ -7,7 +7,7 @@ import background from "../images/background.jpg";
 function Projects(props) {
     return (
         <div class="container-fluid">
-            <h1>Latest Work</h1>
+            <h1 id="portfolio">Latest Work</h1>
 
             <div class=" project-tile ">
             <div class="project-desc">
@@ -20,9 +20,8 @@ function Projects(props) {
                     <img src={javascript} />
                 </div>
                 <div class="project-buttons  ">
-                <button type="button" class="btn btn-primary"><a hfer="#">Code</a></button>
-                <button type="button" class="btn btn-primary"><a hfer="#">Live</a></button>
-                </div>
+                <a href="https://github.com/verdusco1/kotrreviews.github.io" target="_blank"><button type="button" class="btn btn-primary">Github</button></a>
+                <a href="https://www.kotrreviews.com/index.html" target="_blank"><button type="button" class="btn btn-primary">Live</button></a>                </div>
                 <p class="">Created a new fully-responsive website with an improved
                     design from provided mock-up. This video gaming news and
                     game reviews website is constructed with HTML, CSS, and
@@ -41,8 +40,8 @@ function Projects(props) {
                     <img src={javascript} />
                 </div>
                 <div class="project-buttons  ">
-                <button type="button" class="btn btn-primary"><a hfer="#">Code</a></button>
-                <button type="button" class="btn btn-primary"><a hfer="#">Live</a></button>
+                <a href="https://github.com/verdusco1/cakes-by-miss-maggie.github.io" target="_blank"><button type="button" class="btn btn-primary">Code</button></a>
+                <a href="https://www.cakesbymissmaggie.com/" target="_blank"><button type="button" class="btn btn-primary">Live</button></a>
                 </div>
                 <p class="">Designed and developed a fully-responsive website with
                     HTML, CSS, and Javascript.This local baker now has a

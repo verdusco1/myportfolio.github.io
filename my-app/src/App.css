@@ -55,6 +55,28 @@ body {
 }
 
 /* nav */
+
+.initials {
+  color:#f3f3f3;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50px;
+  text-shadow: 1px 1px rgb(156, 156, 156);
+  margin: 0px 0px 0px !important;
+
+  -webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+
+}
+
+.navbar-brand-logo a {
+  text-decoration: none !important;
+  color:#f3f3f3
+}
+
+
 .navbar {
   background-color:#06BC9B;
   height: ;
@@ -64,9 +86,6 @@ body {
 
 .navbar-inner {
   background:  ;
-  display:flex;
-  align-items: ;
-  justify-content: ;
   padding:10px;
   margin:0px;
 
@@ -210,8 +229,9 @@ width: 100%;
 }
 
 .so {
-position: fixed;
-top:0
+position: ;
+
+display:flex;
 }
 
 
@@ -219,9 +239,11 @@ top:0
   opacity: .9;
 }
 
-.navbar-brand-logo img {
+.navbar-brand-logo  {
   width: 35px;
+
 }
+
  /* nav */
 
 /*About */
@@ -342,7 +364,7 @@ top:0
 
 /* */
 .footer-container {
-  background: #706d69;
+  background:  #2f4257;
   height: 100%;
   text-align: center;
   display:flex;
@@ -371,9 +393,10 @@ top:0
 
 .link-container {
   display:flex;
+
   justify-content: center;
   align-items: center;
-  flex-direction: ;
+  flex-direction: row;
 }
 
 .copyright-container p {
@@ -385,8 +408,10 @@ top:0
 
 .arrow-container {
   background: ;
-  color:#06BC9B;
+  color:#06BC9B !important;
   height:;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 .glyphicon-triangle-top {
