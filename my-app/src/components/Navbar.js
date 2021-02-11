@@ -27,25 +27,14 @@ function Navbar(props) {
   <div class="collapse navbar-collapse collapse-container" id="navbarNavAltMarkup">
     <div class="navbar-nav nav-links ">
       <div class="link-wrap first-link">
-        <img class="img__img" src={github} />
         <a class="nav-item nav-link img__description" href="#about">ABOUT</a>
       </div>
       <div class="link-wrap">
-        <img class="img__img" src={github} />
         <a class="nav-item nav-link img__description" href="#portfolio">PORTFOLIO</a>
       </div>
       <div class="link-wrap last-link">
-        <img class="img__img" src={github} />
-        <a class="nav-item nav-link img__description" href="#contact">CONTACT</a>
+        <a class="nav-item nav-link" href="#contact">CONTACT</a>
       </div>
-      <div class=" so">
-  <a class="" href="https://github.com/verdusco1" target="_blank">
-  <img class="" src={github} alt="github logo" height="40" />
-  </a>
-  <a class="" href="https://www.linkedin.com/in/eddie-verdusco" target="_blank">
-  <img class="" src={linkedin} alt="linkedin logo" height="40" />
-  </a>
-  </div>
     </div>
   </div>
 </nav>

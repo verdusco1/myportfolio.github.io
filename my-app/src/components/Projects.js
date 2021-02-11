@@ -6,14 +6,14 @@ import background from "../images/background.jpg";
 
 function Projects(props) {
     return (
-        <div class="container-fluid">
+        <div class="project-container container-fluid">
             <h1 id="portfolio">Latest Work</h1>
 
-            <div class=" project-tile ">
+            <div class=" project-tile col-lg-6">
             <div class="project-desc">
                 <h3>KOTR Reviews</h3>
-                </div>
                 <img class="project-tile-img"src={background}/>
+                </div>
                 <div class="language-image-container">
                     <img src={html} />
                     <img src={css} />
@@ -29,7 +29,7 @@ function Projects(props) {
                 </p>
             </div>
 
-            <div class=" project-tile ">
+            <div class=" project-tile col-lg-6">
             <div class="project-desc">
                 <h3>Cakes by Miss Maggie</h3>
                 </div>
