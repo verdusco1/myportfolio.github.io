@@ -17,7 +17,7 @@ function About(props) {
 
         <div id="about" class="row bio-container">
             <img class="avatar" src={avatar} alt="Eddie's avatar"/>
-            <p class="col-sm-6">
+            <p class="col-sm-8">
     When I look back to the first application that I created, I remember being so excited when everything finally rendered. A spark was ignited that day and the path to self-taught programming was revealed. As time has gone my passion for development has only grown and is fueled by my excitement of always being able to learn something new.
     </p>
         </div>

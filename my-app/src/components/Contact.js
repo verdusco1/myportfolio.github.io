@@ -4,10 +4,10 @@ function Contact(props) {
     return (
 
     <div className="contact-container contrainer-fluid">
-      <div class="row">
+      <div>
       <h1 className="contact-header">Get in touch..</h1>
       </div>
-      <form>
+      <form className="">
       <div className="col-md-12">
         <input id="name" className="input-style" type="text" name="name" placeholder="Name"/>
       </div>
