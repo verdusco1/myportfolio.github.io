@@ -226,7 +226,7 @@ width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    right: 0;
+    float: right;
   }
 
   .first-link, .last-link {
