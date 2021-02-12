@@ -72,14 +72,14 @@ user-select: none; /* Standard */
 }
 
 .nav-container {
-  background-color: blue;
+  background-color: #06BC9B;
   height: 60px;
 
 }
 
 .navbar-brand-logo {
-  height: px;
-  background-color: red;
+
+  margin-right: auto;
   align-self: center;
 }
 
@@ -89,20 +89,18 @@ user-select: none; /* Standard */
   margin-right: auto;
   position: absolute;
   z-index: 200;
-  height: px;
-  background-color: ;
+
 }
 
 
 .navbar {
-  background-color:;
   z-index: 100;
+  min-height: 60px !important;
 
 
 }
 
 .navbar-inner {
-  background:  ;
   padding:0px;
   margin:0px;
   display:flex;
@@ -112,12 +110,10 @@ user-select: none; /* Standard */
 }
 
 .burger {
-  background:;
   margin-left: auto;
   margin-right: 10px;
   margin-top: 0px;
   margin-right:0px;
-  background: ;
   border:none;
 
 }
@@ -152,14 +148,10 @@ margin: 5px 0px;
 
  }
 
- .social-link-container img {
-   opacity: .9;
- }
+
 
  .nav-links {
    display:flex;
-   background-color: red;
-   flex-direction: ;
    justify-content: center;
    align-items: center;
  }
@@ -191,13 +183,11 @@ margin: 5px 0px;
  }
 
 .collapse-container {
-
   margin:3rem 0rem;
   height: 100%;
-width: 100%;
-  background-color: gray ;
+  width: 100%;
   border:none;
-  height: ;
+
 }
 
 .nav-item {
@@ -205,7 +195,6 @@ width: 100%;
 }
 
  .navbar-collapse {
-   background: green;
   margin: 1rem 0rem;
   border-top: 0px transparent solid !important;
   box-shadow: none !important;
@@ -254,7 +243,7 @@ width: 100%;
 
   .first-link, .last-link {
     border-bottom: none;
-    border-top: none;;
+    border-top: none;
    }
 
    .navbar-collapse {
@@ -268,7 +257,6 @@ width: 100%;
 .about-container {
   /* for row padding from bootstrap */
   margin-top:0px;
-  background-color: ;
 }
 
 .home-text h1 {
@@ -281,7 +269,6 @@ width: 100%;
 
 .home-text {
   background-image: url('./images/cubes.png');
-  text-align: ;
   height: 80vh;
   display:flex;
   flex-direction: column;
@@ -379,7 +366,6 @@ width: 100%;
 /*Projects*/
 .project-container {
   margin: 5rem 0rem 5rem 0rem;
-  background-color: ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -478,16 +464,13 @@ width: 100%;
 }
 
 .copyright-container p {
- background-color: ;
  margin-bottom: -5px;
  color: rgba(255, 255, 255, 0.329);
 
 }
 
 .arrow-container {
-  background: ;
-  color:#06BC9B !important;
-  height:;
+  color: #06BC9B !important;
   cursor: pointer;
   text-decoration: none !important;
 }
@@ -513,7 +496,6 @@ width: 100%;
 }
 
 .input-style {
-  background-color: ;
   width:250px;
   margin: 1rem 0rem;
   height: 30px;
