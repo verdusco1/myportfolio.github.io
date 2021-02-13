@@ -3,7 +3,7 @@ import React from "react";
 function Contact(props) {
     return (
 
-    <div className="contact-container contrainer-fluid">
+    <div id="contact" className="contact-container contrainer-fluid">
       <div>
       <h1 className="contact-header">Get in touch..</h1>
       </div>

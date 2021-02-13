@@ -55,19 +55,47 @@ body {
   background-image: url('./images/cubes.png');
 }
 
-@media screen and (min-width: 992px) {
-.navbar-collapse.collapse {
-    display: block!important;
-    height: auto!important;
-    padding-bottom: 0;
-    overflow: visible!important;
+.navbar {
+  background-color: #06BC9B !important;
 }
+
+.navbar-collapse, .navbar-toggler {
+  margin-left: auto;
+  box-shadow: none !important;
+
 }
 
 
+.burger {
+  border:none;
+
+}
+
+.burger div {
+  display:flex;
+  flex-direction: column;
+  border:none;
+
+}
+.burger span {
+  background: #f3f3f3;
+  height: 5px;
+  width: 35px;
+  margin:3px;
+}
+
+
+.nav-link, .navbar-brand {
+   letter-spacing: 3px;
+   font-size: 15px;
+   padding: 5px;
+   font-weight: 600;
+   margin: 0rem 2rem;
+   color: #f3f3f3 !important;
+   text-decoration: none !important;
+
+}
 /* new nav*/
-
-
 
 /*About */
 .about-container {
@@ -179,6 +207,8 @@ body {
 
 
 
+
+
 /*Projects*/
 .project-container {
   margin: 5rem 0rem 5rem 0rem;
@@ -241,8 +271,6 @@ body {
   margin: 0rem 1rem;
 }
 /*Projects*/
-
-
 /* */
 .footer-container {
   background:  #2f4257;
