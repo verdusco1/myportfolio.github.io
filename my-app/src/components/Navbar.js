@@ -10,7 +10,6 @@ import avatar from "../images/avataaars.png";
 
 function Navbar(props) {
     return (
-<div class="nav-container">
 <nav class="navbar navbar-expand-lg navbar-inner">
 <div class="navbar-brand navbar-brand-logo">
       <a href="#about">
@@ -38,10 +37,6 @@ function Navbar(props) {
     </div>
   </div>
 </nav>
-
-
-
-
 
 
     )
